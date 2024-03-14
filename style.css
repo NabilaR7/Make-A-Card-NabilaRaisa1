@@ -1,0 +1,79 @@
+/*ORIGINAL TASK PUPILS STARTED WITH */
+/* Insert any CSS code below here */
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: #fbbf98;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+  background-image: linear-gradient(to right, #bc6ae2 , #fbc6db, #EDB977);
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: #d23232;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 25pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 500px;
+  height: 200px;
+  border: 3px solid #d23232;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: linear-gradient(to right, #e56852 , #fbd8c6, #d58af0)
+}
+
+#inside-title {
+  color: #5f304d;
+  font-family: "Brush Script MT", cursive;
+  font-size: 32pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 220px;
+  height: 210px;
+  border: 3px solid #e87d26
+}
+
+#message {
+  color: #36116f;
+  font-family: Garamond, serif;
+  font-size: 18pt;
+  text-align: center;
+  
+  
+}
+
+button {
+  background: #eaaa57;
+  color: #713681;
+  border: 2px solid #d23232;
+  font-family: 'Courier New', Courier, monospace;
+}
